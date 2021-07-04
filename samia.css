@@ -1,0 +1,231 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family:century gothic;
+}
+
+header{
+	background-image:url(adnan.jpeg);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+}
+.samia{
+	max-width:1450px;
+	margin:auto;
+}
+
+.title{
+	position:absolute;
+	left:13%;
+	top:15%;
+	transform:translate(-50%,-50%);
+	line-height:30px;
+	color:#6699CC 
+}
+
+.title4{
+	position:absolute;
+	left:13%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	line-height:30px;
+	color:#134474;
+		
+}
+.title4 big{
+	font-family:forte;
+	font-size:30px
+}
+
+.title4 ul li{
+	font-family:elephent
+	
+}
+
+.title p{
+	font-family:impact
+	
+}
+.title h3{
+	font-family:elephent;
+	
+}
+.title h2{
+	font-family:
+	
+}
+.title h1{
+	font-family:georgia
+}
+
+
+.samia ul{
+	list-style-type:none;
+	float:right;
+	margin-top:25px;
+	
+}
+
+.samia ul li{
+	display:inline-block;
+}
+
+.samia ul li a{
+	text-decoration:none;
+	color:#9999FF;
+	padding: 5px 20px;
+	border:2px solid transparent;
+	transition: 0.7s ease;
+}
+
+.samia ul li a:hover{
+	background-color:#33CCFF;
+	color:white;
+}
+
+.samia-1{
+	display:none;
+}
+
+.samia ul li:hover .samia-1{
+	display:block;
+	position:absolute;
+	background:#33ccff;
+	margin-top:15px;
+	margin-left:-15px;
+
+	
+}
+
+.samia ul li:hover .samia-1 ul {
+	display:block;
+	margin:10px
+}
+
+.samia ul li:hover .samia-1 ul li{
+	width:150px;
+	padding:10px;
+	border-bottom:1px dotted #fff;
+	background:transparent; 
+	text-align:left;
+	border-radius:0;
+
+}
+
+.footer{
+	width:100%;
+	background:#00121b;
+	display:block
+}
+
+.inner-footer{
+	width:95%;
+	margin:auto;
+	padding:30px 10px;
+	display:flex;
+	flex-wrap:wrap;
+	
+	justify-content:center;
+}
+
+.footr-items{
+	width:40%;
+	padding:20px 30px;
+	box-sizing:border-box;
+	
+}
+
+.jerin{
+	margin:10px 0;
+	color:grey;
+	font-size:16px;
+	font-weight:lighter;
+	text-transform:uppercase;
+}
+
+.border{
+	height:2px;
+	width:40px;
+	background:#ff9800;
+}
+
+.shahed{
+	list-style:none;
+	color:#fff;
+	font-size:15px;
+	letter-spacing:0.5px;
+}
+
+.shahed a{
+	text-decoration:none;
+	outline:none;
+	color:#fff;
+	transition:0.3s;
+}
+
+.shahed a:hover{
+	color:#ff9800;
+}
+
+
+.shahed li{
+	margin:10px 0;
+	height:25px;
+}
+
+
+.shahed li i{
+	margin:20px;
+}
+
+.Social-media{
+	width:100%;
+	color:#fff;
+	text-align:center;
+	
+}
+
+.Social-media a{
+	text-decoration:none;
+	
+}
+
+.Social-media i{
+	
+	height:15px;
+	width:15px;
+	margin:20px 5px;
+	padding:10px;
+	color:#fff;
+	border-radius:50%;
+	border:1px solid gray;
+	transition:0.5s;
+}
+
+.Social-media i:hover{
+	background:gray;
+}
+
+
+.footer-bottom{
+	padding:10px;
+	background:#3d545f;
+	color:#fff;
+	font-size:13px;
+	text-align:center
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
